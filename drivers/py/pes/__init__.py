@@ -3,6 +3,7 @@
 from .dummy import Dummy_driver
 from .harmonic import Harmonic_driver
 from .rascal import Rascal_driver
+from .equiscript import EquiScript_driver
 
 __all__ = ["__drivers__", "Dummy_driver", "Harmonic_driver", "Rascal_driver", "EquiScript_driver"]
 
