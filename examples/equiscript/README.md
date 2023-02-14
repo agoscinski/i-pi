@@ -10,4 +10,4 @@ After having obtained the potential file, the example can be run as usual
 # this does not work because model and dataset does not match, but you get the idea
 git install git+https://github.com/agoscinski/i-pi.git@equihack
 i-pi input.xml
-i-pi-py_driver -m equiscript -a zundel -u -o multi_spectra_script.pickle,h5o2+.extxyz
+i-pi-py_driver -m equiscript -a water -u -o multi_spectra_script-water.pickle,h5o2+.extxyz

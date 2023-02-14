@@ -1,5 +1,5 @@
 <simulation verbosity= "high">
-<output prefix="zundel"> 
+<output prefix="water"> 
 <properties stride="5" filename="out">  [ step, time{picosecond},  conserved{electronvolt}, 
 	temperature{kelvin}, kinetic_md{electronvolt}, potential{electronvolt}, pressure_md{bar}, volume{angstrom3}, 
 	ensemble_temperature{kelvin}, cell_abcABC] </properties>
@@ -13,7 +13,7 @@
     		<slots>4</slots>
     		<port>12345</port>
     		<timeout>60.000000e+00</timeout>
-   		<address>zundel</address>
+   		<address>water</address>
   	</ffsocket> 
 	<system>
         	<initialize nbeads="1">
