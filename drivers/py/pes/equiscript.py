@@ -40,7 +40,7 @@ class EquiScript_driver(Dummy_driver):
         else:
             sys.exit(self.error_msg)
 
-        self.rascal_calc = EquiScriptCalc(self.model, True, self.template)
+        self.rascal_calc = EquiScriptCalc(self.script, True, self.template)
 
     def __call__(self, cell, pos):
         """Get energies, forces, and stresses from the librascal model"""
