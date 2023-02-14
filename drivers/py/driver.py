@@ -204,8 +204,6 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    print(args.mode)
-    print(__drivers__)
     if args.mode in __drivers__:
         d_f = __drivers__[args.mode](args.param)
     elif args.mode == "dummy":
